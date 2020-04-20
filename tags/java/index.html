@@ -6,11 +6,11 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>线程池个人中心</title>
+  <title>Tag: java | 线程池个人中心</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta property="og:type" content="website">
 <meta property="og:title" content="线程池个人中心">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta property="og:url" content="http://yoursite.com/tags/java/index.html">
 <meta property="og:site_name" content="线程池个人中心">
 <meta property="og:locale" content="en_US">
 <meta property="article:author" content="线程池">
@@ -156,63 +156,34 @@
           <div id="js-content" class="content-ll">
             
   
-    <article id="post-泛型" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
+  
     
-      <header class="article-header">
-        
+    
+      
+      
+      <section class="archives-wrap">
+        <div class="archive-year-wrap">
+          <a href="/archives/2020" class="archive-year">2020</a>
+        </div>
+        <div class="archives">
+    
+    <article class="archive-article archive-type-post">
+  <div class="archive-article-inner">
+    <header class="archive-article-header">
+      	<div class="article-meta">
+	      	<a href="/2020/04/20/%E6%B3%9B%E5%9E%8B/" class="archive-article-date">
+  	<time datetime="2020-04-20T02:15:45.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-04-20</time>
+</a>
+        </div>
+    	 
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2020/04/20/%E6%B3%9B%E5%9E%8B/">泛型</a>
+      <a class="archive-article-title" href="/2020/04/20/%E6%B3%9B%E5%9E%8B/">泛型</a>
     </h1>
   
 
-        
-        <a href="/2020/04/20/%E6%B3%9B%E5%9E%8B/" class="archive-article-date">
-  	<time datetime="2020-04-20T02:15:45.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-04-20</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>jdk5出现</p>
-<h2 id="什么是泛型？"><a href="#什么是泛型？" class="headerlink" title="什么是泛型？"></a>什么是泛型？</h2><h4 id="Java泛型设计原则："><a href="#Java泛型设计原则：" class="headerlink" title="Java泛型设计原则："></a>Java泛型设计原则：</h4><p>只要在编译时期没有出现警告，那么运行时期就不会出现ClassCastException异常.</p>
-<h4 id="泛型：-把类型明确的工作推迟到创建对象或调用方法的时候才去明确的特殊的类型"><a href="#泛型：-把类型明确的工作推迟到创建对象或调用方法的时候才去明确的特殊的类型" class="headerlink" title="泛型： 把类型明确的工作推迟到创建对象或调用方法的时候才去明确的特殊的类型"></a>泛型： 把类型明确的工作推迟到创建对象或调用方法的时候才去明确的特殊的类型</h4><h4 id="泛型好处："><a href="#泛型好处：" class="headerlink" title="泛型好处："></a>泛型好处：</h4><ul>
-<li>代码更加简洁【不用强制转换】</li>
-<li>程序更加健壮【只要编译时期没有警告，那么运行时期就不会出现ClassCastException异常】</li>
-<li>可读性和稳定性【在编写集合的时候，就限定了类型】</li>
-</ul>
-<h2 id="泛型类"><a href="#泛型类" class="headerlink" title="泛型类"></a>泛型类</h2>   <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">  &#x2F;&#x2F;定义泛型类</span><br><span class="line">  public class objectTool&lt;E&gt; &#123;</span><br><span class="line">	private E in;</span><br><span class="line"></span><br><span class="line">	public E getIn() &#123;</span><br><span class="line">		return in;</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	public void setIn(E in) &#123;</span><br><span class="line">		this.in &#x3D; in;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h2 id="泛型方法："><a href="#泛型方法：" class="headerlink" title="泛型方法："></a>泛型方法：</h2><pre><code><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;&#x2F;定义泛型方法..</span><br><span class="line">   public &lt;T&gt; void show(T t) &#123;</span><br><span class="line">       System.out.println(t);</span><br><span class="line"></span><br><span class="line">   &#125;</span><br></pre></td></tr></table></figure></code></pre><h2 id="泛型类派生出的子类："><a href="#泛型类派生出的子类：" class="headerlink" title="泛型类派生出的子类："></a>泛型类派生出的子类：</h2><h4 id="子类明确泛型类的类型参数变量："><a href="#子类明确泛型类的类型参数变量：" class="headerlink" title="子类明确泛型类的类型参数变量："></a>子类明确泛型类的类型参数变量：</h4><p>泛型接口</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;*</span><br><span class="line">    把泛型定义在接口上</span><br><span class="line"> *&#x2F;</span><br><span class="line">public interface Inter&lt;T&gt; &#123;</span><br><span class="line">    public abstract void show(T t);</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>实现泛型接口的类</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;**</span><br><span class="line"> * 子类明确泛型类的类型参数变量:</span><br><span class="line"> *&#x2F;</span><br><span class="line">public class InterImpl implements Inter&lt;String&gt; &#123;</span><br><span class="line">    @Override</span><br><span class="line">    public void show(String s) &#123;</span><br><span class="line">        System.out.println(s);</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h4 id="子类不明确泛型类的类型参数变量："><a href="#子类不明确泛型类的类型参数变量：" class="headerlink" title="子类不明确泛型类的类型参数变量："></a>子类不明确泛型类的类型参数变量：</h4><p>当子类不明确泛型类的类型参数变量时，外界使用子类的时候，也需要传递类型参数变量进来，在实现类上需要定义出类型参数变量</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;**</span><br><span class="line"> * 子类不明确泛型类的类型参数变量:</span><br><span class="line"> *      实现类也要定义出&lt;T&gt;类型的</span><br><span class="line"> *</span><br><span class="line"> *&#x2F;</span><br><span class="line">public class InterImpl&lt;T&gt; implements Inter&lt;T&gt; &#123;</span><br><span class="line"></span><br><span class="line">    @Override</span><br><span class="line">    public void show(T t) &#123;</span><br><span class="line">        System.out.println(t);</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>测试代码:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">public static void main(String[] args) &#123;</span><br><span class="line">    &#x2F;&#x2F;测试第一种情况</span><br><span class="line">    &#x2F;&#x2F;Inter&lt;String&gt; i &#x3D; new InterImpl();</span><br><span class="line">    &#x2F;&#x2F;i.show(&quot;hello&quot;);</span><br><span class="line"></span><br><span class="line">    &#x2F;&#x2F;第二种情况测试</span><br><span class="line">    Inter&lt;String&gt; ii &#x3D; new InterImpl&lt;&gt;();</span><br><span class="line">    ii.show(&quot;100&quot;);</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h4 id="注意："><a href="#注意：" class="headerlink" title="注意："></a>注意：</h4><pre><code>&gt;实现类的要是重写父类的方法，返回值的类型是要和父类一样的！&lt;&gt;
-&gt;类上声明的泛形只对非静态成员有效</code></pre><h2 id="类型通配符："><a href="#类型通配符：" class="headerlink" title="类型通配符："></a>类型通配符：</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">public void test(List&lt;?&gt; list)&#123;</span><br><span class="line"></span><br><span class="line">    for(int i&#x3D;0;i&lt;list.size();i++)&#123;</span><br><span class="line"></span><br><span class="line">        System.out.println(list.get(i));</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<blockquote>
-<p>?号通配符表示可以匹配任意类型，任意的Java类都可以匹配…..</p>
-</blockquote>
-<h4 id="设定通配符上限-lt-extends-T-gt-元素只能是T类的本身或者子类"><a href="#设定通配符上限-lt-extends-T-gt-元素只能是T类的本身或者子类" class="headerlink" title="设定通配符上限 &lt;? extends T&gt;:元素只能是T类的本身或者子类"></a>设定通配符上限 &lt;? extends T&gt;:元素只能是T类的本身或者子类</h4><p> <code>List&lt;? extends Number&gt;//List集合装载的元素只能是Number的子类或自身</code></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">public static void main(String[] args) &#123;</span><br><span class="line">      &#x2F;&#x2F;List集合装载的是Integer，可以调用该方法</span><br><span class="line">      List&lt;Integer&gt; integer &#x3D; new ArrayList&lt;&gt;();</span><br><span class="line">      test(integer);</span><br><span class="line"></span><br><span class="line">      &#x2F;&#x2F;List集合装载的是String，在编译时期就报错了</span><br><span class="line">      List&lt;String&gt; strings &#x3D; new ArrayList&lt;&gt;();</span><br><span class="line">      test(strings);</span><br><span class="line"></span><br><span class="line">  &#125;</span><br><span class="line">  public static void test(List&lt;? extends Number&gt; list) &#123;</span><br><span class="line"></span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure>
-
-
-<h4 id="设定通配符下限-lt-super-gt-元素只能是本身或者父类"><a href="#设定通配符下限-lt-super-gt-元素只能是本身或者父类" class="headerlink" title="设定通配符下限&lt;? super &gt;:元素只能是本身或者父类"></a>设定通配符下限&lt;? super &gt;:元素只能是本身或者父类</h4><pre><code><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;&#x2F;传递进来的只能是Type或Type的父类</span><br><span class="line">   &lt;? super Type&gt;</span><br></pre></td></tr></table></figure></code></pre><h2 id="通配符和泛型方法"><a href="#通配符和泛型方法" class="headerlink" title="通配符和泛型方法"></a>通配符和泛型方法</h2><p>大多时候，我们都可以使用泛型方法来代替通配符的…..<br>    <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;&#x2F;使用通配符</span><br><span class="line">   public static void test(List&lt;?&gt; list) &#123;</span><br><span class="line"></span><br><span class="line">   &#125;</span><br><span class="line">   &#x2F;&#x2F;使用泛型方法</span><br><span class="line">   public &lt;T&gt; void  test2(List&lt;T&gt; t) &#123;</span><br><span class="line"></span><br><span class="line">   &#125;</span><br></pre></td></tr></table></figure><br>上面这两个方法都是可以的…..那么现在问题来了，我们使用通配符还是使用泛型方法呢？？</p>
-<h5 id="原则"><a href="#原则" class="headerlink" title="原则:"></a>原则:</h5><p>如果参数之间的类型有依赖关系，或者返回值是与参数之间有依赖关系的。那么就使用泛型方法<br>如果没有依赖关系的，就使用通配符，通配符会灵活一些。</p>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
+        <div class="article-info info-on-right">
+          
 	<div class="article-tag tagcloud">
 		<i class="icon-price-tags icon"></i>
 		<ul class="article-tag-list">
@@ -224,114 +195,19 @@
 		</ul>
 	</div>
 
-      
+          
 
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2020/04/20/%E6%B3%9B%E5%9E%8B/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
+        </div>
+        <div class="clearfix"></div>
+    </header>
   </div>
 </article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
   
-    <article id="post-MyDemo" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
+  
+    </div></section>
+  
+
     
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/04/19/MyDemo/">MyDemo</a>
-    </h1>
-  
-
-        
-        <a href="/2020/04/19/MyDemo/" class="archive-article-date">
-  	<time datetime="2020-04-19T10:40:04.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-04-19</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">随笔</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2020/04/19/MyDemo/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-  
 
 
           </div>
@@ -353,10 +229,10 @@
     <script>
 	var yiliaConfig = {
 		mathjax: false,
-		isHome: true,
+		isHome: false,
 		isPost: false,
 		isArchive: false,
-		isTag: false,
+		isTag: true,
 		isCategory: false,
 		open_in_new: false,
 		toc_hide_index: true,
